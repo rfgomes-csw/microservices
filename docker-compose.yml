@@ -5,7 +5,6 @@ services:
     build: ./eurekaserver
     ports:
       - "8761:8761"
-      -
   license:
     build: ./license-service
     ports:
